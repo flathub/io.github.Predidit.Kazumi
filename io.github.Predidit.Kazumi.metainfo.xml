@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
   <!--Created with jdAppStreamEdit 9.1-->
   <id>io.github.Predidit.Kazumi</id>
@@ -28,8 +28,19 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.3.1" date="2024-09-10">
-      <description></description>
+    <release version="1.3.1" date="2024-09-10" type="stable">
+      <description>
+        <ul>
+          <li>Redesigned anime series detail page</li>
+          <li>Improved video parser</li>
+          <li>Fixed danmaku area settings not taking effect (#211)</li>
+          <li>Fixed danmaku not resuming after changing settings while paused (#211)</li>
+          <li>Resolved issue with video playing muted on iOS in silent mode (#214)</li>
+          <li>Corrected watch history errors in specific scenarios</li>
+          <li>Optimized Windows application icon (@first-storm)</li>
+          <li>Rotated sample rules</li>
+        </ul>
+      </description>
     </release>
     <release version="1.3.0" date="2024-09-03" type="stable">
       <description>
