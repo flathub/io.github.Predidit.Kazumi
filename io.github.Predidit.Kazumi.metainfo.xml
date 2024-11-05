@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-  <!--Created with jdAppStreamEdit 9.1-->
+  <!--Created with jdAppStreamEdit 9.2-->
   <id>io.github.Predidit.Kazumi</id>
   <name>Kazumi</name>
   <summary>Watch Animes online with danmaku support</summary>
@@ -28,34 +28,43 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.4.1" date="2024-11-02">
-      <description></description>
+    <release version="1.4.1" date="2024-11-02" type="stable">
+      <description>
+        <ul>
+          <li>Redesigned desktop player animation logic (@ErBWs)</li>
+          <li>Fixed occasional video aspect ratio errors on iOS (#226) (@ErBWs)</li>
+          <li>Fixed an issue where player shortcuts would not work in certain situations (@Predidit)</li>
+          <li>Fixed an issue where autoplaying the next episode would switch to playlist 1 (#359) (@Predidit)</li>
+          <li>Now, when continuing to watch long-form animations, the episode list will automatically scroll to the current episode position (@ErBWs)</li>
+          <li>Minor UI optimizations (@ErBWs)</li>
+        </ul>
+      </description>
     </release>
-    <release version="1.4.0" date="2024-10-25">
+    <release version="1.4.0" date="2024-10-25" type="stable">
       <description/>
     </release>
-    <release version="1.3.9" date="2024-10-18">
+    <release version="1.3.9" date="2024-10-18" type="stable">
       <description/>
     </release>
-    <release version="1.3.8" date="2024-10-18">
+    <release version="1.3.8" date="2024-10-18" type="stable">
       <description/>
     </release>
-    <release version="1.3.7" date="2024-10-17">
+    <release version="1.3.7" date="2024-10-17" type="stable">
       <description/>
     </release>
-    <release version="1.3.6" date="2024-10-10">
+    <release version="1.3.6" date="2024-10-10" type="stable">
       <description/>
     </release>
-    <release version="1.3.5" date="2024-10-04">
+    <release version="1.3.5" date="2024-10-04" type="stable">
       <description/>
     </release>
-    <release version="1.3.4" date="2024-09-28">
+    <release version="1.3.4" date="2024-09-28" type="stable">
       <description/>
     </release>
-    <release version="1.3.3" date="2024-09-22">
+    <release version="1.3.3" date="2024-09-22" type="stable">
       <description/>
     </release>
-    <release version="1.3.2" date="2024-09-16">
+    <release version="1.3.2" date="2024-09-16" type="stable">
       <description/>
     </release>
     <release version="1.3.1" date="2024-09-10" type="stable">
