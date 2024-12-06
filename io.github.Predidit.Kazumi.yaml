@@ -30,16 +30,16 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/Predidit/Kazumi/releases/download/1.4.4/Kazumi_linux_1.4.4_amd64.deb
-        sha256: c892c9c13402fec5a8c9956f1fdcb4f2a5217a79d21f540b852e1558cdcb4a2a
+        url: https://nightly.link/Predidit/Kazumi/actions/runs/12195705806/linux_outputs.zip
+        sha256: 7d779d6f5db2b015cf4e98c93f891824ba9fc35fb2c830d36362adf269ae176f
         only-arches: [x86_64]
-        dest-filename: Kazumi.deb
-        x-checker-data:
-          type: json
-          url: https://api.github.com/repos/Predidit/Kazumi/releases/latest
-          version-query: .tag_name
-          url-query: .assets[] | select(.name | contains("linux") and contains("amd64.deb"))
-            | .browser_download_url
+        dest-filename: linux.zip
+        # x-checker-data:
+        #   type: json
+        #   url: https://api.github.com/repos/Predidit/Kazumi/releases/latest
+        #   version-query: .tag_name
+        #   url-query: .assets[] | select(.name | contains("linux") and contains("amd64.deb"))
+        #     | .browser_download_url
       - type: file
         path: io.github.Predidit.Kazumi.metainfo.xml
       - type: script
@@ -48,8 +48,9 @@ modules:
           - /app/Kazumi/kazumi "$@"
         dest-filename: kazumi.sh
     build-commands:
+      - unzip linux.zip
       # Unzip deb package
-      - bsdtar --to-stdout -xf Kazumi.deb data.tar.zst | bsdtar -xf -
+      - bsdtar --to-stdout -xf *.deb data.tar.zst | bsdtar -xf -
       # Install binaries
       - cp -r opt/Kazumi ${FLATPAK_DEST}/
       - cp -r usr/share ${FLATPAK_DEST}/
