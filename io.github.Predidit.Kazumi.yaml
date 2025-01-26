@@ -30,8 +30,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/Predidit/Kazumi/releases/download/1.5.3/Kazumi_linux_1.5.3_amd64.deb
-        sha256: 5d2383ce4ae1345de7cf5ca1dd9d3dd134d4848531aea16346184ddc7df9c8a7
+        url: https://github.com/Predidit/Kazumi/releases/download/1.5.4/Kazumi_linux_1.5.4_amd64.deb
+        sha256: 159fe4819228e84348ab591b3396661f98423720d53f49e24f7a7774179d34e6
         only-arches: [x86_64]
         dest-filename: Kazumi.deb
         x-checker-data:
