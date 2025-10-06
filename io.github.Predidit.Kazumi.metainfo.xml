@@ -29,7 +29,28 @@
   </screenshots>
   <releases>
     <release version="1.8.2" date="2025-09-25">
-      <description></description>
+      <description>
+        <ul>
+          <li>新增新番时间表排序功能 (@Predidit)</li>
+          <li>改进 Linux 平台视频解析器 (#1055) (@Predidit)</li>
+          <li>修复 Windows 平台退出全屏可能UI冻结的问题 (#1178) (@Predidit)</li>
+          <li>修复自动更新功能可能的URL解析错误 (@UzawaReisaQwQ)</li>
+          <li>修复播放器调试日志无法响应式更新的问题 (@Predidit)</li>
+          <li>修复可能的UI布局问题 (#1323) (@Predidit)</li>
+          <li>现在番剧规则查询可以被优雅地取消 (@Predidit)</li>
+          <li>轮换示例规则 (@Predidit)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.8.1" date="2025-09-19">
+      <description/>
+    </release>
+    <release version="1.8.0" date="2025-09-18">
+      <description/>
+       <li>现在番剧规则查询可以被优雅地取消 (@Predidit)</li>
+       <li>轮换示例规则 (@Predidit)</li>
+      </ul>
+      </description>
     </release>
     <release version="1.8.1" date="2025-09-19">
       <description/>
