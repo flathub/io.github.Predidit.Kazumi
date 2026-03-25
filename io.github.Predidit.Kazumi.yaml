@@ -13,6 +13,7 @@ finish-args:
   - --device=dri
   - --socket=pulseaudio
   - --share=network
+  - --own-name=org.mpris.MediaPlayer2.io.github.Predidit.Kazumi
   - --talk-name=org.kde.StatusNotifierWatcher
   - --talk-name=org.freedesktop.ScreenSaver
 cleanup:
