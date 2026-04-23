@@ -1,7 +1,7 @@
 id: io.github.Predidit.Kazumi
 # This app needs libwebkit2gtk-4.1 to work properly.
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: kazumi
 finish-args:
@@ -16,16 +16,6 @@ finish-args:
   - --own-name=org.mpris.MediaPlayer2.io.github.predidit.kazumi.*
   - --talk-name=org.kde.StatusNotifierWatcher
   - --talk-name=org.freedesktop.ScreenSaver
-cleanup:
-  - '*.a'
-  - '*.la'
-  - /include
-  - /lib/cmake
-  - /lib/pkgconfig
-  - /man
-  - /share/man
-  - /share/gtk-doc
-
 modules:
   - shared-modules/libayatana-appindicator/libayatana-appindicator-gtk3.json
   - name: kazumi
