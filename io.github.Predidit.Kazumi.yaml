@@ -22,8 +22,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/Predidit/Kazumi/releases/download/2.3.4/Kazumi_linux_2.3.4_amd64.deb
-        sha256: d7377cb38af5f2f6a8ddef0a4c6067698c1c0acbbfb797e6389f59354e8db01b
+        url: https://github.com/Predidit/Kazumi/releases/download/2.3.6/Kazumi_linux_2.3.6_amd64.deb
+        sha256: 94d9369268c2b473512abbcf3df06b7b2478056def1a66ad4da82831bae54c17
         only-arches: [x86_64]
         dest-filename: Kazumi.deb
         x-checker-data:
@@ -33,8 +33,8 @@ modules:
           url-query: .assets[] | select(.name | contains("linux") and contains("amd64.deb"))
             | .browser_download_url
       - type: file
-        url: https://github.com/Predidit/Kazumi/releases/download/2.3.4/Kazumi_linux_2.3.4_arm64.deb
-        sha256: 401294c8e4df31329879c65ffe0a6ad09dcf623c2ee7309d55b04a07340e3bb6
+        url: https://github.com/Predidit/Kazumi/releases/download/2.3.6/Kazumi_linux_2.3.6_arm64.deb
+        sha256: df7bf1bafdc7cf5dc03c1aa243cb25cde38ce5f9ec8816b543b51fad926353ad
         only-arches: [aarch64]
         dest-filename: Kazumi.deb
         x-checker-data:
