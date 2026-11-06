@@ -56,8 +56,12 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2.4.2" date="2026-10-23">
+    <release version="2.4.3" date="2026-11-04">
+      <url type="details">https://github.com/Predidit/Kazumi/releases/tag/2.4.3</url>
       <description></description>
+    </release>
+    <release version="2.4.2" date="2026-10-23">
+      <description/>
     </release>
     <release version="2.4.1" date="2026-10-22">
       <description/>
